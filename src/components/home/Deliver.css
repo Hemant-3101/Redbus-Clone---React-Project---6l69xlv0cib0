@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 650px;
+    border:0.2px solid #bdb9b9;
+    background-color: #eee;
+
+}
+.promiseimg{
+    
+    width: 90px;
+    height: 100px;
+    margin: 12px 45%;
+     
+}
+.heading{
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 40px;
+}
+.container{
+    width: 93%;
+    height: 400px;
+    border: 0.5px solid #bdb9b9;
+    margin: 15px 0px;
+    margin-left: 45px;
+    border:-0.5px solid #cac7c7;
+    background-color: #fff;
+display: flex;
+flex-direction: row;
+}
+.box{
+    width: 35%;
+    height: 400px;
+    border:1px solid #f1f0f0;
+}
+.inimg{
+    width: 415px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgg{
+    width: 100px;
+    height: 100px;
+}
+.intext{
+    color:#5f5e5e;
+    /* font-weight:500; */
+    font-size:14px;
+    word-spacing:9px;
+    text-align:center;
+    text-transform:uppercase;
+    margin-bottom: 45px;
+}
+.para{
+    width: 400px;
+    height: 180px;
+    color: #737373;
+    font-size: 14px;
+    padding-left: 20px;
+    text-align: center;
+    line-height: 1.5;
+    padding-right: 20px;
+    word-spacing: 5px;
+
+}
+.award_box{
+    width: 100%;
+    height: 450px;
+    background-color:#fff;
+    /* border-bottom:0.5px solid #d4cece; */
+   position: relative;
+
+}
+.heading2{
+    color: #4a4a4a;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+font-weight: 550;
+word-spacing: 2;
+margin: 35px 0px;
+    
+}
+.award_container{
+    width: 960px;
+    height: 300px;
+    /* border: 1px solid black; */
+ position: absolute;
+    top: 80px;
+    left: 15%;
+    display: flex;
+    flex-direction: row;
+
+}
+.award_smallbox{
+    width: 320px;
+    height: 300px;
+    /* border: 1px solid; */
+/* display: flex; */
+position: relative;
+
+}
+.imgg2{
+    width: 200px;
+    position: absolute;
+    
+    top: 60px;
+    left: 50px;
+    height: 120px;
+}
+.para2{
+    letter-spacing: 3px;
+    font-size: 16px;
+    position: absolute;
+    top: 240px;
+    left: 70px;
+    color: #4a4a4a;
+text-align: center;
+}

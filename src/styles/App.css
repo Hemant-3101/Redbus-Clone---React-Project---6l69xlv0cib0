@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 450px; 
+    background: url("../Images/header_Hero01.png");
+}
+
+.redbus_nav{
+    width: 100%;
+    height: auto;
+    padding: 0 50px;
+    background-color: #d84f57;
+}
+.nav_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Nav_container_right{
+    padding-top: 10px;
+}
+.nav_list{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+}
+.nav_list_right{
+    /* padding: 5px 0;
+    align-content: center; */
+}
+.nav_list li{
+    list-style: none;
+}
+.contain_arrow{
+    margin-right: 15px;
+    position: relative;
+}
+.nav_down_arrow{
+    position: absolute;
+    top: 0px;
+    width: 30px;
+    height: 20px;
+    /* padding-top: 10px; */
+}
+.user_nav_img{
+    width: 50px;
+    height: 50px;
+}
+
+.header-search-box{
+    position: absolute;
+    top: 210px;
+    left: 21%;
+    width: 57%;
+    height: 50px;
+    
+}
+.header-search-inner-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+}
+.header-search-input-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.header-input-wraper{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+}
+.header-input-wraper>label{
+    width: 50px;
+    height: 50px;
+}
+.header-input-wraper>label img{
+    
+    width: 30px;
+    height: 40px;
+    padding-top: 10px;
+}
+.search-input-text{
+    
+    width: 100%;
+    height: 50px;
+}
+.error-msg{
+    border: 1px solid red;
+    outline: none;
+    
+}
+.date-pick{
+    width: 100%;
+    border: none;
+    
+}
+.search-input-text>label{
+    margin-left: 20px;
+    font-weight: bold;
+    color: #d2d2d2;
+}
+.search-input-text>input{
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #555555;
+}
+.dest_image{
+    margin-left: 15px;
+}
+.header-input-wraper-date{
+    width: 15%;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #fff;
+    /* border: 1px solid #d2d2d2; */
+}
+.header-input-wraper-btn{
+    
+    width: 20%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d74f57;
+    color: #fff;
+    
+}
+.header-input-wraper-date>label{
+    width: 50px;
+    height: 50px;
+}
+.header-input-wraper-date>label img{
+    width: 40px;
+    height: 50px;
+}
+
+.header-search-switch-btn{
+    position: absolute;
+    top: 10px;
+    left: 215px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #d2d2d2;
+}
+.header-search-switch-btn img{
+    width: 100%;
+    height: 100%;
+}
+
+.countries-main{
+    background-color: #f1f1f1;
+    height: 550px;
+    border-top: 1px solid #aca7a7;
+    border-bottom: 1px solid #aca7a7;
+}
+
+.countries-section{
+    padding: 20px;
+    text-align: center;
+}
+
+.countries-heading{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.countries-list{
+   width: 650px;
+   margin: 50px auto 50px;
+   display: table;
+   box-sizing: border-box;
+   
+}
+
+
+.row{
+    margin: 10px 0;
+}
+
+
+.cc{
+    display: table-cell;
+    padding: 30px 110px;
+    text-align: center;
+    
+}
+
+.countries-list-name{
+    line-height: 2rem;
+    letter-spacing: 2px;
+    color: cadetblue;
+}
+
+.images{
+    width: 130px;
+    height: 80px;
+}
+
+.grow-body{
+    background-color: white
+}
+
+.grow-body2{
+   display: table;
+   padding: 50px;
+   text-align: center;
+   line-height: 2rem;
+}
+
+.growing{
+    text-align: center;
+    font-weight: bold;
+}
+
+.growing-heading{
+    font-family: monospace;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.growing-col{
+   
+    width: 30%;
+    line-height: 2rem;
+    display: table-cell;
+    text-align: center;
+}
+
+
+.grow{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.grow1{
+    font-size: 40px;
+    color: rgb(189, 61, 61);
+    /* font-weight: bold; */
+}
+
+.grow2{
+    
+    width: 60%;
+    text-align: center;
+    margin-left: 90px;
+    padding: 15px;
+}
+
+
+.fake_div_footer {
+    border-top: 1px solid grey;
+    background: rgb(229, 229, 229);
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.top_bus_routes {
+    width: 90%;
+    padding: 10px 0px 20px;
+    margin: 20px;
+    border-bottom: 1px solid rgb(104, 95, 95);;
+    display: flex;
+    justify-content: space-between
+}
+
+.design_heading {
+    font-size: 17px;
+    color:rgb(104, 95, 95);
+    padding-bottom: 10px;
+    line-height: 20px;
+
+}
+
+div p {
+    line-height: 28px;
+    color: rgb(104, 95, 95);
+}
+
+.top_operation {
+    width: 90%;
+    padding-left: 18px;
+}
+.top {
+    padding: 5px 0 15px 0;
+}
+
+.last {
+    text-align: end;
+    padding: 5px 0 15px 0;
+}
+.operation_inside{
+    word-spacing: 5px;
+    line-height: 25px;
+    font-size: 16px;
+    color: rgb(104, 95, 95);
+}
+.footer{
+    background: rgb(27,35,48);
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 45px;
+    justify-content: space-evenly;
+}
+
+div h3{
+    color:rgb(172, 166, 166);
+    font-size: 15px;
+    line-height: 30px;
+}
+.logo_footer{
+    width: 300px;
+   
+    
+}
+.online_booking:hover{
+    color: white;
+}
+.para_logo{
+   
+    line-height: 21px;
+}
+.online_booking{
+    text-decoration: none;
+    color: rgb(216, 207, 207);
+    font-size: 20px;
+}
+.copy_right{
+    padding-top: 20px;
+}
+
+.bus-search-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bus-search-list-container{
+    width: 80%;
+    height: auto;
+    
+}
+.sortng-tab{
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    margin-top: 5px;
+    border: 2px solid #d2d2d2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.bus-list{
+    width: 100%;
+    height: 80px;
+    padding: 0 10px;
+    margin-top: 5px;
+    border: 2px solid #d2d2d2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.bus-list:hover{
+    box-shadow: 2px 2px #555555;
+}
+.title-sort-tab{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.title-sort-list{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.bus-title{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+.view-seat{
+    width: 110%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: #d84f57;
+    color: #fff;
+}
+.view-seat:hover{
+    background: #da2c37;
+}
+.bus-body{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    border: 1px solid red;
+}
+.driver{
+    width: 10%;
+    height: 250px;
+    border: 1px solid blue;
+}
+.seat-container{
+    position: relative;
+    width: 90%;
+    padding: 10px;
+    height: 250px;
+    border: 1px solid blue;
+}
+.steering{
+    width: 80%;
+    height: auto;
+}
+.seat-container > div{
+    width: 100%;
+    height: 100%;
+    
+}
+.seat-check{
+    width: 10%;
+    height: 30%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    
+}
+
+.seat-check:hover{
+    background: #aca7a7;
+    border-radius: 10px;
+}
+.seat-image{
+    width: 100%;
+    height: 100%;
+}
+.book-ticket-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.book-ticket-container > button{
+    width: 10%;
+    height: 70%;
+    border: none;
+    background: #da2c37;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+.book-ticket-container > button:hover{
+    background: #d74f57;
+}
+.ticket-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ticket-body>div{
+    width: 70%;
+}
+.ticket-details-body{
+    border: 3px solid black;
+}
+.ticket-details-body>.bus-list{
+    border: none;
+}
+.success-status>h1{
+    color: green;
+    text-align: center;
+}
+
+/*not fond*/
+.not-found{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* media query */
+
+@media (max-width: 600px)
+{
+    .redbus_nav{
+        width: 100%;
+        /* background-color: #fff; */
+        /* color: #111; */
+    }
+
+    .Nav_container_left img{
+        display: none;
+    }
+
+    .Nav_container_left ul li{
+        color: #111;
+    }
+    
+    .Nav_container_right{
+       bottom: 0;
+    }
+
+    .Nav_container_right ul li{
+        color: #111;
+    }
+
+    .hd
+    {
+        background-color: aqua;
+    }
+
+    header{
+        position: relative;
+        width: 100%;
+        background: none;
+        background-color: #da2c37;
+    }
+
+    .header-search-box
+    {
+        /* position: absolute; */
+        top: 100px;
+
+    }
+
+    .header-search-inner-box {
+        /* position: relative; */
+        width: 100%;
+
+    }
+
+    .header-search-input-container {
+        width: 100%;
+        height: 50px;
+        display: inline;
+    }
+
+    .header-input-wraper{
+        width: 120%;
+    }
+
+    .header-input-wraper-date{
+        width: 120%;
+    }
+   
+    .header-input-wraper-btn{
+        width: 120%;
+        
+    }
+
+    .search-input-text>input{
+        display: inline;
+    }
+
+    .header-search-switch-btn {
+        position: absolute;
+        top: 35px;
+        left: 320px;
+        transform: rotate(90deg);
+    }
+    
+    .main 
+    {
+        width: 100%;
+    }
+
+    .container{
+        float: none;
+        
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inimg{
+        float: none;
+        
+    }
+
+    .intext{
+    
+    }
+
+    .para {
+    
+        display: block;
+       float: none;
+
+    }
+    
+}
